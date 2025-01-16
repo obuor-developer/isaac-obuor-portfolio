@@ -25,11 +25,13 @@ const Index = () => {
   return (
     <div className="bg-navy min-h-screen font-inter">
       <Navbar />
-      <Hero />
-      <Experience />
-      <Skills />
-      <Projects />
-      <Contact />
+      <main>
+        <Hero />
+        <Experience />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   );
 };
